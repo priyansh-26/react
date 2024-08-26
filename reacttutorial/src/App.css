@@ -1,0 +1,28 @@
+
+/* App.css */
+.nav {
+  list-style-type: none; /* Remove bullet points */
+  display: flex;         /* Align items in a row */
+  justify-content: space-around; /* Distribute space evenly */
+  padding: 0;            /* Remove default padding */
+  margin: 0;             /* Remove default margin */
+  background-color: #333; /* Dark background for the navbar */
+}
+.nav li {
+  display: inline;       /* Make list items inline */
+}
+.nav a {
+  display: block;        /* Make the link fill the list item */
+  padding: 14px 20px;    /* Add padding around the text */
+  text-align: center;    /* Center the text */
+  text-decoration: none; /* Remove underline from links */
+  color: white;          /* Set link color to white */
+}
+.nav a:hover {
+  background-color: #575757; /* Change background on hover */
+  color: white;              /* Ensure text color stays white */
+}
+.nav a.active {
+  background-color: #4CAF50; /* Highlight the active link */
+  color: white;              /* Ensure text color stays white */
+}
